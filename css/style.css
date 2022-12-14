@@ -1,0 +1,503 @@
+/* import font dari google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+
+
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* navbar */
+.navbar {
+    height: 55px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #242F9B;
+    position: sticky;
+}
+
+.navbar-brand {
+    color: #FFF8EA;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    margin-left: 40px;
+    color: #FFF8EA;
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+/* ketika menu dihover */
+.nav-link:hover {
+    color: #FFF8EA;
+}
+
+.nav-link:active {
+    color: #FFF8EA;
+}
+
+.container-fluid .login-button {
+    border: 2px #FFF8EA solid;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
+    padding-top: 0.29%;
+    padding-bottom: 0.29%;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #FFF8EA;
+    text-decoration: none;
+}
+
+/* jumbotron */
+.jumbotron {
+    padding: 3%;
+    background-color: #242F9B;
+    height: 546px;
+}
+
+
+.jumbotron .row .col-sm-7 .container img {
+    width: 650px;
+    position: relative;
+    bottom: 15px;
+}
+
+.col-sm-5 {
+    padding: 1px;
+}
+
+.content-jumbotron {
+    color: white;
+    margin: 20px 0 20px 20px;
+}
+
+.content-jumbotron .welcome {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.content-jumbotron .smart {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 80px;
+    margin: 7px 0 7px 0;
+}
+
+.content-jumbotron .lorem {
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 11px;
+}
+
+.but-get {
+    margin-top: 50px;
+    border: 2px #FFF8EA solid;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.text-get {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFF8EA;
+}
+
+/* service */
+.content-services {
+    height: 400px;
+    padding: 70px 0 40px 0;
+    overflow: hidden;
+}
+
+.content-services .title-service {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content-services .value-service .row {
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.content-services .value-service .row .col-3 {
+    height: 140px;
+    width: 190px;
+    padding: 10px 10px 10px 10px;
+}
+
+.content-services .value-service .row .col-3 .service-value-image {
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content-services .value-service .row .col-3 .service-value-title {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.content-services .value-service .row .col-3 .service-value-value {
+    font-weight: 300;
+    margin-top: 6px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* vector */
+.vector {
+    width: 100%;
+}
+
+/* vector1 */
+
+.vector .vector1 {
+    max-height: 600px;
+}
+
+.vector .vector1 .vector1-value .row {
+    position: relative;
+    bottom: 380px;
+    right: 400px;
+}
+
+.vector .vector1 .vector1-value .row .col-sm-8 {
+    position: relative;
+    top: 90px;
+    left: 550px;
+}
+
+.vector .vector1 .vector1-value .row .col-sm-8 .value-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+.vector .vector1 .vector1-value .row .col-sm-8 hr {
+    background-color: white;
+    /* untuk meningkatkan opacity karena default hr opacity rendah */
+    opacity: 1;
+    border-width: 10px;
+    display: block;
+    width: 10%;
+    border-radius: 10px;
+    height: 4px;
+    border: none;
+    position: relative;
+    bottom: 6px;
+}
+
+.vector .vector1 .vector1-value .row .col-sm-8 .value-value {
+    font-weight: 500;
+    font-size: 10px;
+    color: white;
+}
+
+.vector .vector1 .vector1-value .row .col-sm-3 img {
+    width: 405px;
+    height: 350px;
+}
+
+/* background vector 1  */
+.vector .vector1 img {
+    width: 700px;
+    height: 370px;
+}
+
+/* vector2 */
+
+.vector .vector2 .vector2-value .row {
+    position: relative;
+    left: 290px;
+    bottom: 80px;
+
+}
+
+.vector .vector2 .vector2-value .row .col-sm-8 {
+    position: relative;
+    top: 170px;
+    left: 450px;
+}
+
+.vector .vector2 .vector2-value .row .col-sm-8 .value-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+
+.vector .vector2 .vector2-value .row .col-sm-8 hr {
+    background-color: white;
+    /* untuk meningkatkan opacity karena default hr opacity rendah */
+    opacity: 1;
+    border-width: 10px;
+    display: block;
+    width: 10%;
+    border-radius: 10px;
+    height: 4px;
+    border: none;
+    position: relative;
+    bottom: 6px;
+    left: 322px;
+}
+
+.vector .vector2 .vector2-value .row .col-sm-8 .value-value {
+    font-weight: 500;
+    font-size: 10px;
+    color: white;
+    text-align: end;
+}
+
+.vector .vector2 .vector2-value .row .col-sm-3 img {
+    width: 405px;
+    height: 350px;
+}
+
+/* background vector 1  */
+.vector .vector2 img {
+    float: right;
+    width: 700px;
+    height: 370px;
+}
+
+/* plan */
+.plan {
+    padding: 2% 2%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.plan .plan-title {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plan .plan-value {
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+/* .plan .plan-product {
+    padding: 2% 0;
+} */
+
+.plan .plan-product .row {
+    justify-content: center;
+    height: auto;
+    column-gap: 20px;
+    float: none;
+    margin-top: 1%;
+    padding: 2% 0%;
+
+}
+
+.plan .plan-product .row .col-sm-4 {
+    /* untuk memberikan jarak antara plan-product-start dan plan-product-end */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    height: auto;
+    box-shadow: 1px 1px 8px rgb(158, 151, 151);
+    border-radius: 23%/14%;
+    padding: 1.6% 0.9% 1.6% 0.9%;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start .product-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start hr {
+    background-color: #242F9B;
+    margin: 2% auto 10% auto;
+    /* untuk meningkatkan opacity karena default hr opacity rendah */
+    opacity: 0.7;
+    border-width: 10px;
+    display: block;
+    width: 18%;
+    /* hroizontal x/ vertical y */
+    border-radius: 5%/50%;
+    height: 4px;
+    border: none;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start .ver {
+    width: 100%;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start .ver img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5%;
+    margin-bottom: 0.5%;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start .ver span {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-start .ver {
+    padding: 1.5% 11% 1.5% 11%;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-end {
+    align-items: flex-end;
+    margin-top: 25%;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-end .product-price span {
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-end .product-price {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-end .product-time {
+    /* untuk mengatur jarak ke harga */
+    position: relative;
+    bottom: 8%;
+    /* font-style */
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.plan .plan-product .row .col-sm-4 .plan-product-end .button {
+    margin: 0 auto;
+    height: 39%;
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 15%/50%;
+    padding: 6% 10%;
+    background-color: #242F9B;
+    color: #FFF8EA;
+    text-align: center;
+}
+
+/* testimonial */
+.testimoni {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+}
+
+.testimoni .testimoni-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.testimoni .testimonials {
+    padding: 2% 10%;
+}
+
+.testimoni .testimonials .row {
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.testimoni .testimonials .row .col-sm-4 {
+    width: 18%;
+    box-shadow: 1px 1px 8px rgb(158, 151, 151);
+    border-radius: 10%;
+    padding: 3%;
+}
+
+.testimoni .testimonials .row .col-sm-4 .testi-head {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Poly';
+    line-height: 20px;
+}
+
+.testimoni .testimonials .row .col-sm-4 .testi-avatar {
+    width: 100%;
+}
+
+.testimoni .testimonials .row .col-sm-4 .testi-avatar img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+}
+
+.testimoni .testimonials .row .col-sm-4 .testi-value {
+    margin-top: 8%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.testimoni .testimonials .row .col-sm-4 .testi-name {
+    margin-top: 8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* footer */
+
+.foot {
+    overflow: hidden;
+    background-color: #242F9B;
+    width: 100%;
+    padding: 1% 4%;
+}
+
+.foot .row .col-sm-2 {
+    color: #FFF8EA;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.foot .row .col-sm-10 {
+    text-align: end;
+}
+
+.foot .row .col-sm-10 img {
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 1%;
+}
