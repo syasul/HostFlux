@@ -329,7 +329,7 @@ body {
 .plan .plan-product .row .col-sm-4 {
     /* untuk memberikan jarak antara plan-product-start dan plan-product-end */
     display: flex;
-    /* untuk merubah tipe flex menjadi columb */
+    /* untuk menentukan tipe flex menjadi columb */
     flex-direction: column;
     justify-content: space-between;
     width: 18%;
