@@ -1,14 +1,20 @@
+/* import font-family dari website google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap');
 
 body {
+    /* untuk meng-set 0 secara keseluruhan mulai dari margin dan padding */
     margin: 0;
     padding: 0;
+    /* mendeklarasikan font-family secara global di body */
     font-family: 'Poppins';
+    /* untuk memotong kelebihan ukuran gambar */
     overflow: hidden;
-    background-image: url("../images/backlogin.png");
+    /* meng-set background image pada website */
+    background-image: url('../images/backlogin.png');
     background-size: contain;
     width: auto;
     height: 670px;
+    /* agar ukuran gambar kurang gambar tidak akan muncul lagi untuk mengisi tempat kosong gambar */
     background-repeat: no-repeat;
 }
 
@@ -18,29 +24,32 @@ body {
 
 .login .row .col-md-1 .back-button {
     background-color: #FFF8EA;
+    /* untuk inner shadow */
+    /*inset = untuk merubah shadow ke dalam, x, y, blur-radius, warna dan a adalah parameter alpha*/
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.2);
     border-radius: 40%;
+    /* untuk menempatkan elemen dalam dimensi yang berbeda */
     position: relative;
+    /* untuk mengatur posisi depan atau belakang suatu elemen. */
     z-index: -2;
+    /* untuk mengatur maximal width */
     max-width: 48%;
+    /* untuk mengatur maximal height */
     max-height: 25%;
-    padding: 10% 10%;
-
+    /* untuk mengatur x dan y pada layar */
+    padding: 8% 9%;
 }
 
 .login .row .col-md-1 .back-button img {
-    width: 25px;
-    height: 25px;
+    width: 29px;
+    height: 29px;
 }
-
 
 .login .row .col-md-11 .login-out-side {
     width: 100%;
     padding: 8% 0 0 43%;
+    /* untuk mengatur x dan y pada layar */
     margin: 0 auto;
-
-
-
 }
 
 .login .row .col-md-11 .login-out-side .login-in-side {
@@ -56,24 +65,22 @@ body {
 }
 
 .login .row .col-md-11 .login-out-side .login-in-side form label {
+    /* untuk mengatur ketebalan font */
     font-weight: 600;
     font-size: 15px;
     padding-left: 2%;
 }
 
-.login .row .col-md-11 .login-out-side .login-in-side form input[type=text],
+.login .row .col-md-11 .login-out-side .login-in-side form input[ type=text],
 .login .row .col-md-11 .login-out-side .login-in-side form input[type=password] {
+    /* untuk mengatur radius x/y pada component */
     border-radius: 2%/20%;
     height: 45px;
+    /* untuk memberikan garis luar pada component, "ketebalan garis, style, warna" */
     border: 1.5px solid #959595;
     padding: 0% 3% 0.5% 3%;
-
 }
 
-.login .row .col-md-11 .login-out-side .login-in-side form input[type=text]:focus .form-control:focus,
-.login .row .col-md-11 .login-out-side .login-in-side form input[type=password]:focus .form-control:focus {
-    border: 1.5px solid #959595;
-}
 
 .login .row .col-md-11 .login-out-side .login-in-side form .butt {
     width: 100%;
@@ -88,9 +95,7 @@ body {
 }
 
 .login .row .col-md-11 .login-out-side .login-in-side form .belum-punya-akun {
-
     text-align: center;
-    font-weight: 40%;
     margin-top: 3%;
     font-weight: 600;
 }

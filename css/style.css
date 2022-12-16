@@ -7,9 +7,10 @@
 
 html,
 body {
-
+    /* untuk meng-set 0 secara keseluruhan mulai dari margin dan padding */
     margin: 0;
     padding: 0;
+    /* mendeklarasikan font-family secara global di body */
     font-family: 'Poppins';
 }
 
@@ -38,11 +39,15 @@ body {
     text-align: center;
 }
 
-/* ketika menu dihover */
+/* ketika menu dihover pesudocode class*/
+/* :hover - Saat kursor berada di atas sebuah link, link tersebut berada dalam status hover dan selector ini yang memilihnya. */
 .nav-link:hover {
     color: #FFF8EA;
 }
 
+
+/* ketika menu dihover pesudocode class*/
+/* :active - Memilih link yang sedang aktif (sedang diklik). Misalnya, untuk menentukan sebuah link berada dalam status "pressed" (sedang ditekan) atau membuat semua link menjadi seperti button. */
 .nav-link:active {
     color: #FFF8EA;
 }
@@ -103,7 +108,7 @@ body {
 
 .but-get {
     margin-top: 50px;
-    border: 2px #FFF8EA solid;
+    border: 2px solid #FFF8EA;
     padding-left: 1.8%;
     padding-right: 1.8%;
     padding-top: 1%;
@@ -229,6 +234,7 @@ body {
 /* vector2 */
 
 .vector .vector2 .vector2-value .row {
+    /* untuk menempatkan elemen dalam dimensi yang berbeda */
     position: relative;
     left: 290px;
     bottom: 80px;
@@ -236,6 +242,7 @@ body {
 }
 
 .vector .vector2 .vector2-value .row .col-sm-8 {
+    /* untuk menempatkan elemen dalam dimensi yang berbeda */
     position: relative;
     top: 170px;
     left: 450px;
@@ -267,6 +274,7 @@ body {
     font-weight: 500;
     font-size: 10px;
     color: white;
+    /* sama dengan align right */
     text-align: end;
 }
 
@@ -321,6 +329,7 @@ body {
 .plan .plan-product .row .col-sm-4 {
     /* untuk memberikan jarak antara plan-product-start dan plan-product-end */
     display: flex;
+    /* untuk merubah tipe flex menjadi columb */
     flex-direction: column;
     justify-content: space-between;
     width: 18%;
@@ -337,6 +346,7 @@ body {
 }
 
 .plan .plan-product .row .col-sm-4 .plan-product-start hr {
+    /* merubah background color */
     background-color: #242F9B;
     margin: 2% auto 10% auto;
     /* untuk meningkatkan opacity karena default hr opacity rendah */
@@ -344,7 +354,7 @@ body {
     border-width: 10px;
     display: block;
     width: 18%;
-    /* hroizontal x/ vertical y */
+    /* horizontal x/ vertical y */
     border-radius: 5%/50%;
     height: 4px;
     border: none;
@@ -373,7 +383,7 @@ body {
 }
 
 .plan .plan-product .row .col-sm-4 .plan-product-end {
-    align-items: flex-end;
+    /* align-items: flex-end; */
     margin-top: 25%;
 }
 
@@ -438,6 +448,7 @@ body {
 
 .testimoni .testimonials .row .col-sm-4 {
     width: 18%;
+    /* x, y, blur-radius, warna */
     box-shadow: 1px 1px 8px rgb(158, 151, 151);
     border-radius: 10%;
     padding: 3%;
@@ -448,6 +459,7 @@ body {
     font-weight: 500;
     font-size: 50px;
     font-family: 'Poly';
+    /* jarak antar text */
     line-height: 20px;
 }
 
@@ -456,6 +468,7 @@ body {
 }
 
 .testimoni .testimonials .row .col-sm-4 .testi-avatar img {
+    /* merubah dari display inline menjadi block line */
     display: block;
     margin: 0 auto;
     width: 40%;
