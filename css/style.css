@@ -75,6 +75,7 @@ body {
 
 .jumbotron .row .col-sm-7 .container img {
     width: 650px;
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     bottom: 15px;
 }
@@ -184,12 +185,14 @@ body {
 }
 
 .vector .vector1 .vector1-value .row {
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     bottom: 380px;
     right: 400px;
 }
 
 .vector .vector1 .vector1-value .row .col-sm-8 {
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     top: 90px;
     left: 550px;
@@ -211,6 +214,7 @@ body {
     border-radius: 10px;
     height: 4px;
     border: none;
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     bottom: 6px;
 }
@@ -235,7 +239,7 @@ body {
 /* vector2 */
 
 .vector .vector2 .vector2-value .row {
-    /* untuk menempatkan elemen dalam dimensi yang berbeda */
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     left: 290px;
     bottom: 80px;
@@ -243,7 +247,7 @@ body {
 }
 
 .vector .vector2 .vector2-value .row .col-sm-8 {
-    /* untuk menempatkan elemen dalam dimensi yang berbeda */
+    /* kenapa pakai relative karena relative adalah memungkinkan posisi elemen berhubungan dengan wadah divnya. sedangakan nilai absolute memungkinkan untuk menghapus dari wadah divnya dengan deklarasi Top, Right, Bottom dan left. Hubungan dengan wadah divnya hanya saja jika posisi div terakhir memiliki nilai */
     position: relative;
     top: 170px;
     left: 450px;
