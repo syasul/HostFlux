@@ -12,6 +12,7 @@ body {
     padding: 0;
     /* mendeklarasikan font-family secara global di body */
     font-family: 'Poppins';
+    scroll-behavior: smooth;
 }
 
 /* navbar */

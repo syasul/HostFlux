@@ -11,6 +11,7 @@ body {
     overflow: hidden;
     /* meng-set background image pada website */
     background-image: url('../images/registerback.png');
+    /* contain mengikuti ukuran lebar elemen, cover mengikuti ukuran lebar dan tinggi elemen */
     background-size: contain;
     width: auto;
     height: 600px;
